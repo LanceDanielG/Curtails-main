@@ -1,0 +1,176 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+a:hover{
+    color: #FFC65F;
+    transition: all 0.5s;
+}
+body{
+    background: #F3F2E9;
+    overflow-x: hidden;
+}
+.primary{
+    color: #FFB125;
+}
+.secondary{
+    color: #A3CF4E;
+}
+
+.primary-background{
+    background: #FFB125;
+}
+
+.secondary-background{
+    background: #A3CF4E;
+}
+
+/* Homepage Custom Page Divider */
+.food-card{
+    color: black;
+    text-decoration: none;
+}
+.page-divider{
+    padding: 2px 0;
+}
+.login-picture{
+    background-color: #FFB125;
+}
+.login-wrapper{
+    height: 100vh;
+}
+.login-header{
+    color: #FFB125;
+}
+.bg-img{
+    width: 50vw;
+    height: 100vh;
+}
+
+/* Admin Stuff */
+ul{
+    list-style-type: none;
+}
+.admin-image{
+    background-color: #FFFFFF;
+}
+.admin-nav{
+    color: white; 
+    font-weight: 1000;
+}
+.admin-nav li a{
+    font-weight: bolder;
+    text-decoration: none;
+}
+.dropdown-item a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Button Stuff */
+.login-btn{
+    border: 1px #FFB125 solid;
+    color: #FFB125;
+    background-color: white;
+}
+.login-btn:hover{
+    background-color: #FFB125; 
+    color: #FFFFFF;
+}
+.previous{
+    border: 1px #FFB125 solid;
+    color: #FFB125;
+    background-color: white;
+    text-decoration: none;
+}
+.previous:hover{
+    background-color: #FFB125; 
+    color: #FFFFFF;
+}
+
+/* Validation Stuff */
+.invalid-input{
+    color: red;
+    font-size: small;
+}
+
+/* Admin Products */
+.product-option a{
+    text-decoration: none;
+    color: #FF8F1E;
+}
+.filter-btn{
+    background-color: #FF8F1E;
+    color: #FFFFFF;
+    border: none;
+}
+.product-btn{
+    color: #FF5D01;
+    background-color: #FFE9D4;
+    border: none;
+    text-decoration: none;
+}
+
+.product-btn:hover{
+    color: #FFE9D4 ;
+    background-color: #FF5D01;
+}
+
+/* Sidebar */
+#sideBar{
+    z-index:5; 
+    width: 0vw; 
+    animation: 1s ease-in-out;
+}
+.sideBarItem{
+    animation: 1s  ease-in-out;
+}
+.sideBarItem:hover{
+    animation: 1s ease-in-out;
+    color: white;
+    background-color: #FF8F1E;
+}
+
+.image-resize img{
+    height: 50px;
+    width: 50px;
+}
+
+#regBackButton{
+    text-decoration: none;
+    color: #443C3D;
+    background-color: white;
+    transition: all 0.5s;
+    border: 1px solid #443C3D;
+}
+
+#regBackButton:hover{
+    transition: all 0.5s;
+    color: white;
+    background-color: #443C3D;
+}
+
+#regSubmitButton{
+    transition: all 0.5s;
+    text-decoration: none; 
+    color: #FFC65F; 
+    background-color: white;
+    border: 1px solid #FFC65F;
+}
+#regSubmitButton:hover{
+    transition: all 0.5s;
+    text-decoration: none; 
+    color: #fff; 
+    background-color: #FFC65F;
+    border: 1px solid #FFC65F;
+}
+#regHeader a{
+    text-decoration: none;
+}
+#regHeader a li{
+    color: #443C3D;
+    transition: all 0.5s;
+}
+#regHeader a:hover li{
+    transition: all 0.5s;
+    color: #FFC65F;
+}
